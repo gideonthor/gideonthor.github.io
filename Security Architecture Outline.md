@@ -89,8 +89,8 @@ Cross-reference to Governance document Section 7.1.1, but provide the *security-
 Define and diagram the trust boundaries:
 - **Boundary 1:** User → Agent (authentication, session management)
 - **Boundary 2:** Agent → LLM (prompt sanitisation, DLP, zero-retention enforcement)
-- **Boundary 3:** Agent → Tools/MCP Servers (schema validation, sandboxing)
-- **Boundary 4:** Agent → IRIN3 (AIGP access control, data classification enforcement)
+- **Boundary 3:** Agent → Tools/MCP Servers (schema validation)
+- **Boundary 4:** Agent → IRIN3 (AIGP access control)
 - **Boundary 5:** Agent → Agent (inter-agent containment, data classification propagation)
 - **Boundary 6:** Agent → External systems (egress DLP, no PII in external calls)
 
